@@ -16,7 +16,7 @@ BIN=blink
 # OUT=${BIN}.elf ${BIN}.hex ${BIN}.lss
 OUT=${BIN}.hex
 
-SOURCES = main.c
+SOURCES = main.c millis.c
 
 OBJS = $(SOURCES:.c=.o)
 
