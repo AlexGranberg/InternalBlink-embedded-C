@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	init_millis(16000000UL);
+	millis_init();
 	unsigned long prev_millis;
 	prev_millis = millis();
 	sei();
